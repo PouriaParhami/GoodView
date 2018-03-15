@@ -15,3 +15,6 @@ If you use this software to display these sites, their weblog content will be di
 - Sharing content or desired post link
 - Every 30 minutes, check the site and notify you if a new post has been posted
 
+## Some tips:
+- Some websites do not allow access to the REST API
+- For older WordPress versions, either update WordPress or use the Wordpress REST API plugin.
