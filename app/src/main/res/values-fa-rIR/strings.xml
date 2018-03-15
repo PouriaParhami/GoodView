@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">دید خوب</string>
+    <string name="data_error_message">اشکال در دریافت اطلاعات، لطفا دوباره تلاش کنید.</string>
+    <string name="sql_error_message">شما هیچ پستی را ذخیره نکرده‌اید</string>
+    <string name="show_save_posts">نمایش پست‌ها محبوب من</string>
+    <string name="fa_show_save_posts">علاقه‌مندی‌ها</string>
+    <string name="setting_menu_name">تنظیمات</string>
+    <string name="category_menu_name">دسته بندی</string>
+    <string name="error_no_data">نمی‌توانیم داده‌ها را بگیرم، لطفا مجددا تلاش کنید</string>
+    <string name="error_no_internet">اتصال اینترنت شما قطع شده است. اتصال را بررسی کرده و دوباره تلاش کنید</string>
+    <string name="error_shared_pref_edit_text_number">لطفا عددی بین 1 تا 30 انتخاب کنید</string>
+    <string name="share_content_post_menu_item_name">به اشتراک گذاری محتوای پست</string>
+    <string name="sc_share_content">به اشتراک گذاری محتوای پست</string>
+    <string name="sc_share_link">به اشتراک گذاری لینک پست</string>
+</resources>

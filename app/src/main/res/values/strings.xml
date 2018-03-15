@@ -1,0 +1,130 @@
+<resources>
+    <!-- app name -->
+    <string name="app_name">Good View</string>
+
+    <!-- error message when we don't have data -->
+    <string name="data_error_message">We can\'t get information, please try again</string>
+
+    <!-- error message when we don't have any saved post -->
+    <string name="sql_error_message">you don\'t save any post. This box is empty.</string>
+
+    <!-- menu items names for main activity -->
+    <string name="show_save_posts">Show Favorite Posts</string>
+    <string name="fa_show_save_posts">Favorites</string>
+    <string name="setting_menu_name">Setting</string>
+    <string name="category_menu_name">Category</string>
+
+    <!-- error message -->
+    <string name="error_no_data">Sorry we can not fetch data, try again.</string>
+    <string name="error_no_internet">Your internet connection is lost. Check your connection and try again</string>
+    <string name="error_shared_pref_edit_text_number">Please select a number between 0.1 and 30</string>
+
+    <!-- image description -->
+    <string name="post_pic_description">post picture image</string>
+
+    <string name="author_picture">Author post picture.</string>
+    <string name="image_of_post_in_post_activity">Image of post</string>
+
+    <!-- menu items names for post activity -->
+    <string name="share_link_post_menu_item_name">Share link</string>
+    <string name="share_content_post_menu_item_name">Share content</string>
+
+    <!-- name of shareCompact title -->
+    <string name="sc_share_link">Share the post link.</string>
+    <string name="sc_share_content">Share the post content.</string>
+
+    <!-- - - - - - - - - share preference titles ,... - - - - - - - - - - - - - - - - - -->
+    <string name="fa_pref_save_post_label">Title Size</string>
+    <string name="pref_save_post_label">Save Favorite Posts</string>
+    <string name="pref_save_post_key" translatable="false">save_favorite_posts</string>
+    <string name="pref_save_post_summery_on">Yes</string>
+    <string name="pref_save_post_summery_off">No</string>
+
+    <!-- edit text of title size -->
+    <string name="pref_size_title_label">Size Of Title</string>
+    <string name="pref_size_title_key" translatable="false">size_of_title</string>
+    <string name="pref_size_title_default" translatable="false">17</string>
+
+    <!-- edit text of description -->
+    <string name="pref_size_desc_label">Size Of Description</string>
+    <string name="pref_size_desc_key" translatable="false">size_of_desc</string>
+    <string name="pref_size_desc_default" translatable="false">14</string>
+    <string name="fa_pref_size_desc_lable">Description Size</string>
+
+    <!-- edit text of content -->
+    <string name="pref_size_content_label">Size Of Content</string>
+    <string name="fa_pref_size_content_label">Content Size</string>
+    <string name="pref_size_content_key" translatable="false">size_of_content</string>
+    <string name="pref_size_content_default" translatable="false">14</string>
+    <string name="save_post_button">save</string>
+    <string name="unsaved_post_button">unsaved</string>
+
+    <string name="save_last_post_id" translatable="false">last_post_id</string>
+    <string name="save_last_post_title" translatable="false">last_post_title</string>
+    <string name="pref_title_size_is_changed" translatable="false">pref_title_size_is_changed</string>
+    <string name="pref_description_size_is_changed" translatable="false">pref_description_size_is_changed</string>
+    <string name="pref_content_size_is_changed" translatable="false">pref_content_size_is_changed</string>
+    <string name="pref_site_address_is_changed" translatable="false">site_address_is_changed</string>
+
+    <!-- Strings related to Notification Enabled preference -->
+    <string name="pref_enable_notifications_key" translatable="false">enable_notifications</string>
+    <string name="pref_enable_notifications_label">Post Notifications</string>
+    <string name="fa_pref_enable_notifications_label">Notification</string>
+
+    <string name="pref_enable_notifications_true">Enabled</string>
+    <string name="fa_pref_enable_notifications_true">Enabled</string>
+    <string name="pref_enable_notifications_false">Not Enabled</string>
+    <string name="fa_pref_enable_notifications_false">Not Enabled</string>
+
+    <string name="pref_last_notification">last_notification</string>
+
+    <string name="favorite_posts_key">favorite_posts_key</string>
+    <!-- - - - - - - - - - - - end of share preference - - - - - - - - - - - - - - - - - - -  -->
+
+    <!-- # for share content and link -->
+    <string name="share_hashtag_name">darkoobweb.com</string>
+
+    <string name="favorite_posts_title_activity">"Favorites "</string>
+
+    <string name="setting_activity_title">Settings</string>
+
+    <string name="fa_message_when_empty">You have not added anything to the favorites box yet ...</string>
+
+    <string name="empty_box_icon">empty box icon</string>
+
+    <string name="category_activity_title">categories</string>
+
+    <string name="main_app_name_activity_title">Good View</string>
+
+    <!-- notification Text -->
+    <string name="new_post_reminder_notification_title">We Found New Post Released</string>
+    <string name="fa_new_post_reminder_notification_title">A new article has been posted.</string>
+    <string name="new_post_reminder_notification_body">We found new post of this site, don\'t miss that, click and check the new post.</string>
+    <string name="fa_new_post_reminder_notification_body">سایت مورد نظر شما مطلبی با عنوان %s منتشر کرده است.</string>
+
+    <string name="no_category_image_description">No category</string>
+    <string name="loading_text_for_progressbar">Receiving information ...</string>
+    <string name="no_internet_image_description">No internet connection</string>
+    <string name="try_again_text_button">Try again</string>
+    <string name="about_us">About us</string>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="menu">menu</string>
+
+    <!--shared preference site address-->
+    <string name="pref_site_address">https://www.darkoobweb.com</string>
+    <string name="pref_site_address_key">site_address_key</string>
+    <string name="fa_pref_site_address_label">Site Address</string>
+
+    <string name="menu_favorites_Description_text">Posts you saved</string>
+    <string name="menu_category_Description_text">Site Categorys</string>
+    <string name="menu_setting_Description_text">App Setting</string>
+    <string name="menu_about_us_Description_text">"what was that? what happened? Where was? "</string>
+
+    <string name="about_name">Pouria Parhami</string>
+    <string name="about_link">https://www.linkedin.com/in/pouria-parhami-411b6099/</string>
+    <string name="unknown_host_exception">Your web site address is not valid</string>
+
+
+</resources>

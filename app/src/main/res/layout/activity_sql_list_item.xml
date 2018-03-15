@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <TextView
+        android:id="@+id/tv_sql_post_title"
+        style="@style/TitleTextBoxStyle"
+        android:layout_margin="4dp"
+        tools:text="Post title"
+
+        />
+
+    <!-- This view show the Description about wordpress post -->
+    <!-- <TextView
+        android:id="@+id/tv_sql_post_description"
+        style="@style/DescriptionTextBoxStyle"
+        android:layout_margin="4dp"
+        tools:text="Post Description" />-->
+
+    <org.sufficientlysecure.htmltextview.HtmlTextView
+        android:id="@+id/tv_sql_post_description"
+        tools:text="hello"
+        style="@style/ContentTextBoxStyle"/>
+
+    <!--This View serves as a visual divider between list items-->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#dadada"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp" />
+
+</LinearLayout>

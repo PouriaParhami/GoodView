@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- address site posts in MainActivity -->
+    <EditTextPreference
+        android:defaultValue="@string/pref_site_address"
+        android:key="@string/pref_site_address_key"
+        android:title="@string/fa_pref_site_address_label"
+        android:fontFamily="@font/dw_yekan"
+        />
+
+    <!-- size of title posts in MainActivity -->
+    <EditTextPreference
+        android:defaultValue="@string/pref_size_title_default"
+        android:key="@string/pref_size_title_key"
+        android:title="@string/fa_pref_save_post_label"
+        android:fontFamily="@font/dw_yekan"
+        />
+
+    <!-- size of description posts in MainActivity -->
+    <EditTextPreference
+        android:defaultValue="@string/pref_size_desc_default"
+        android:key="@string/pref_size_desc_key"
+        android:title="@string/fa_pref_size_desc_lable"
+        android:fontFamily="@font/dw_yekan"
+        />
+
+    <!-- size of content postsPostDetailActivity -->
+    <EditTextPreference
+        android:defaultValue="@string/pref_size_content_default"
+        android:key="@string/pref_size_content_key"
+        android:title="@string/fa_pref_size_content_label"
+        android:fontFamily="@font/dw_yekan"
+        />
+
+    <CheckBoxPreference
+        android:defaultValue="@bool/show_notifications_by_default"
+        android:key="@string/pref_enable_notifications_key"
+        android:summaryOff="@string/fa_pref_enable_notifications_false"
+        android:summaryOn="@string/fa_pref_enable_notifications_true"
+        android:title="@string/fa_pref_enable_notifications_label"
+        android:fontFamily="@font/dw_yekan"/>
+
+</PreferenceScreen>
